@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  max-width: 1128px;
+  margin: 24px auto;
+  padding: 0;
+}
+.gallery-item {
+  flex: 1 1 calc(33.33% - 24px);
+  box-sizing: border-box;
+}
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
