@@ -21,3 +21,6 @@
   height: auto;
   object-fit: cover;
 }
+.gallery-item:hover {
+  cursor: url("./bxs_hand-down.png"), pointer;
+}
